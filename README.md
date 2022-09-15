@@ -4,6 +4,12 @@ A spigot plugin to log the current server timestamp to the console and to any us
 
 Why? Minecraft log files are fragile to analyze because they do not contain a full timestamp, and they do not indicate the timezone. This plugin should hopefully make the timestamps in your log more machine-readable.
 
+The log looks like this:
+
+```
+[17:06:41] [pool-13-thread-1/INFO]: [LogTimestamp] Current server time: 2022-09-14T23:06:41.301479225Z 2022-09-14T17:06:41.301479225-06:00[America/Denver] MT
+```
+
 ## License
 
 Licensed under AGPLv3
